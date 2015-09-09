@@ -113,6 +113,7 @@ avec une boucle des plus simple: "loop do ... end"
 Et voilà, notre programme nous demandera indéfiniement de lui donner des code barres.
 A vous de modifier à ligne "puts data...." pour que le programme renvoie les informations qui vous intéressent.
 
+Pour finir, ci vous souhaitez en savoir plus sur openfactfood [En Savoir Plus](http://fr.openfoodfacts.org/decouvrir)
 
 
 
