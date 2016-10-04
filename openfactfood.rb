@@ -1,16 +1,12 @@
-require 'open-uri'
-require 'json'
+require "json"
+require "open-uri"
 
-loop do
-    puts "Entrez un numero de Code Barre:"
-    bar_code = gets.chomp
+puts "Entrez un numéro de code-barre :"
+bar_code= gets.chomp
 
-    url="http://fr.openfoodfacts.org/api/v0/produit/#{bar_code}.json"
+url="http://fr.openfoodfacts.org/api/v0/produit/#{bar_code}.json"
 
-    json = open(url).read
+json = open(url).read
+dat = JSON.parse(json)
 
-    data= JSON.parse(json)
-
-    puts data['product']['product_name']
-
-end
+puts data["product"]["product_name"]
