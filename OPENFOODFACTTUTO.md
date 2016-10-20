@@ -3,14 +3,14 @@
 ----------------------------------------------
 
 
-## Open Food Fact c'est quoi?
+## Open Food Facts c'est quoi?
 
 Open Food Facts est une organisation qui recense de façons colaborative des informations
 sur les produits alimentaires disponibles dans le commerce. Identifiés par un code bare, ces produits sont
 alors listés avec toutes les informations disponibles: nom, marque, composition, 
 lieu et pays de vente, etc...
 
-Open Food Fact propose donc une API afin d'avoir accès a ces informations. Nous allons
+Open Food Facts propose donc une API afin d'avoir accès a ces informations. Nous allons
 donc apprendre à utiliser cette API avec un peu de code Ruby!
 
 ---------------
@@ -113,7 +113,7 @@ avec une boucle des plus simple: "loop do ... end"
 Et voilà, notre programme nous demandera indéfiniement de lui donner des code barres.
 A vous de modifier à ligne "puts data...." pour que le programme renvoie les informations qui vous intéressent.
 
-Pour finir, ci vous souhaitez en savoir plus sur openfactfood [En Savoir Plus](http://fr.openfoodfacts.org/decouvrir)
+Pour finir, ci vous souhaitez en savoir plus sur Open Food Facts [En Savoir Plus](http://fr.openfoodfacts.org/decouvrir)
 
 
 
